@@ -1,0 +1,40 @@
+<XML>
+    <REQUEST>
+        <ACTION>INSERT_ORDERWITHPAYMENT</ACTION>
+        <META>
+            <MERCHANTID>5377</MERCHANTID>
+            <IPADDRESS>109.110.246.26</IPADDRESS>
+            <VERSION>2.0</VERSION>
+            <REQUESTIPADDRESS>46.16.252.133</REQUESTIPADDRESS>
+        </META>
+        <PARAMS>
+            <ORDER>
+                <ORDERID>91111</ORDERID>
+                <AMOUNT>100</AMOUNT>
+                <CURRENCYCODE>USD</CURRENCYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <COUNTRYCODE>CN</COUNTRYCODE>
+                <SURNAME>Chen</SURNAME>
+                <CITY>Shangahai</CITY>
+                <FIRSTNAME>Ming</FIRSTNAME>
+                <STREET>Nou Camp</STREET>
+                <HOUSENUMBER>14</HOUSENUMBER>
+                <ZIP>200000</ZIP>
+                <STATE>Shanghai</STATE>
+                <MERCHANTREFERENCE>test123</MERCHANTREFERENCE>
+            </ORDER>
+            <PAYMENT>
+                <CVV>123</CVV>
+                <CVVINDICATOR>1</CVVINDICATOR>
+                <PAYMENTPRODUCTID>1</PAYMENTPRODUCTID>
+                <AMOUNT>100</AMOUNT>
+                <CURRENCYCODE>USD</CURRENCYCODE>
+                <CREDITCARDNUMBER>1234567890123456</CREDITCARDNUMBER>
+                <EXPIRYDATE>1215</EXPIRYDATE>
+                <COUNTRYCODE>CN</COUNTRYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <HOSTEDINDICATOR>0</HOSTEDINDICATOR>
+            </PAYMENT>
+        </PARAMS>
+    </REQUEST>
+</XML>
